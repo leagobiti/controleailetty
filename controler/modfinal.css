@@ -136,7 +136,7 @@
 /* BOTÕES */
 .xbox .button {
     position: absolute;
-    background: url("https://leagobiti.github.io/controleailetty/controler/abxymod.png");
+    background: url(xbox-assets/abxy.svg);
     width: 48px;
     height: 48px;
     transition: all 0.05s ease;
@@ -183,7 +183,7 @@
 /* ANALÓGICOS */
 .xbox .stick {
     position: absolute;
-    background: url("https://leagobiti.github.io/controleailetty/controler/stickmod.png");
+    background: url(xbox-assets/sticks.svg);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -214,7 +214,7 @@
 
 /* DPAD */
 .xbox .face {
-    background: url("https://leagobiti.github.io/controleailetty/controler/dpadmod.png");
+    background: url("xbox-assets/dpad.svg");
     position: absolute;
     opacity: 0;
     transition: all 0.05s ease;
