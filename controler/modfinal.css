@@ -1,15 +1,13 @@
 /*BEGIN Xbox One Controller Styling*/
+
 .controller.xbox {
-    background: url(xbox-assets/base.svg);
+    background: url("https://leagobiti.github.io/controler/basemod.png") no-repeat center;
+    background-size: contain;
     height: 630px;
     width: 750px;
-    /*    margin-left: -375px;
-        margin-top: -285px;*/
 }
 
-.xbox.white {
-    background: url(basemod.png);
-}
+/* REMOVEU .xbox.white */
 
 .xbox.disconnected {
     background: url(xbox-assets/disconnected.svg);
@@ -29,8 +27,11 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(triggermod.png);
+    background: url("https://leagobiti.github.io/controler/triggermod.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0;
+    transition: all 0.05s ease;
 }
 
 .xbox .trigger.left {
@@ -46,8 +47,11 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(bumpermod.png);
+    background: url("https://leagobiti.github.io/controler/bumpermod.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0;
+    transition: all 0.05s ease;
 }
 
 .xbox .bumpers {
@@ -68,7 +72,6 @@
 
 .xbox .bumper.right {
     float: right;
-    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
@@ -83,22 +86,18 @@
 }
 
 .xbox .p0 {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
 .xbox .p1 {
-    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .xbox .p2 {
-    -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
 .xbox .p3 {
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -110,14 +109,16 @@
     left: 306px;
 }
 
-.xbox .back, .xbox .start {
+.xbox .back,
+.xbox .start {
     background: url(xbox-assets/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.xbox .back.pressed, .xbox .start.pressed {
+.xbox .back.pressed,
+.xbox .start.pressed {
     opacity: 1;
 }
 
@@ -140,9 +141,12 @@
 
 .xbox .button {
     position: absolute;
-    background: url(abxymod.png);
+    background: url("https://leagobiti.github.io/controler/abxymod.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
+    transition: all 0.05s ease;
 }
 
 .xbox .button.pressed {
@@ -185,10 +189,13 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(stickmod.png);
+    background: url("https://leagobiti.github.io/controler/stickmod.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: -85px 0;
     height: 83px;
     width: 83px;
+    transition: all 0.05s ease;
 }
 
 .xbox .stick.pressed {
@@ -214,9 +221,12 @@
 }
 
 .xbox .face {
-    background: url(dpadmod.png);
+    background: url("https://leagobiti.github.io/controler/dpadmod.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     opacity: 0;
+    transition: all 0.05s ease;
 }
 
 .xbox .face.pressed {
@@ -256,10 +266,6 @@
 
 .xbox.half {
     margin-top: -315px;
-}
-
-.xbox {
-    background: no-repeat center;
 }
 
 /*END Xbox One Controller Styling*/
