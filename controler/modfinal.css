@@ -7,8 +7,6 @@
     width: 750px;
 }
 
-/* REMOVIDO .xbox.white */
-
 .xbox.disconnected {
     background: url("https://leagobiti.github.io/controleailetty/controler/xbox-assets/disconnected.svg");
 }
@@ -28,8 +26,6 @@
     width: 88px;
     height: 121px;
     background: url("https://leagobiti.github.io/controleailetty/controler/triggermod.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     opacity: 0;
     transition: all 0.05s ease;
 }
@@ -48,8 +44,6 @@
     width: 170px;
     height: 61px;
     background: url("https://leagobiti.github.io/controleailetty/controler/bumpermod.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     opacity: 0;
     transition: all 0.05s ease;
 }
@@ -139,11 +133,10 @@
     left: 488px;
 }
 
+/* BOTÕES */
 .xbox .button {
     position: absolute;
     background: url("https://leagobiti.github.io/controleailetty/controler/abxymod.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
     transition: all 0.05s ease;
@@ -187,11 +180,10 @@
     left: 144px;
 }
 
+/* ANALÓGICOS */
 .xbox .stick {
     position: absolute;
     background: url("https://leagobiti.github.io/controleailetty/controler/stickmod.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -220,10 +212,9 @@
     left: 223px;
 }
 
+/* DPAD */
 .xbox .face {
     background: url("https://leagobiti.github.io/controleailetty/controler/dpadmod.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     position: absolute;
     opacity: 0;
     transition: all 0.05s ease;
